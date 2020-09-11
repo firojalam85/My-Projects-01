@@ -946,7 +946,7 @@ button:focus {
     text-align: center;
     margin-left: 0px;
     border: 2px solid #fff;
-    transition: all .3s linear;
+    transition: all .5s linear;
 
 }
 
@@ -957,7 +957,8 @@ button:focus {
     text-align: center;
     border-radius: 50%;
     background: #3e08f4;
-    border: 0;
+    transform: rotate(360deg);
+    border: 1px solid #3e08f4;
 }
 
 .teams_content {
@@ -1125,7 +1126,7 @@ button:focus {
     text-align: center;
     border-radius: 50%;
     background: #fff;
-    transition: all .3s linear;
+    transition: all .5s linear;
 }
 
 .contracttxt span {
@@ -1141,6 +1142,7 @@ button:focus {
 
 .contractlogo i:hover {
     background: #3e08f4;
+    transform: rotate(360deg);
 }
 
 .contractlogo i:hover {
@@ -1199,7 +1201,7 @@ button:focus {
     margin-left: 90px;
 }
 
-.contract_btn a {
+.contract_btn .btn{
     font-size: 18px;
     padding: 6px 30px;
     margin: 10px 0px;
@@ -1293,11 +1295,12 @@ button:focus {
     text-align: center;
     color: #fff;
     background: #494848;
-    transition: all .3s linear;
+    transition: all .5s linear;
 }
 
 .segment_three a:hover {
     background: #3e08f4;
+    transform: rotate(360deg);
 }
 
 .segment_four h2 {
